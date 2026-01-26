@@ -1,0 +1,46 @@
+
+.content-pane {
+  max-height: calc(100vh - 60px);
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.sidebar-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: rgb(214, 214, 214);
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.2rem;
+}
+
+.sidebar a:hover {
+  background-color: rgb(166, 166, 166);
+}
+
+.sidebar a:active {
+  background-color: rgb(127, 127, 127);
+}
+
+.sidebar a.active {
+  background-color: rgb(186, 208, 255);
+}
+
+.sidebar a.active:hover {
+  background-color: rgb(176, 201, 255);
+}
+
+.sidebar a.active:active {
+  background-color: rgb(165, 194, 255);
+}
