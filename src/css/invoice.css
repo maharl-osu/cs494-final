@@ -1,0 +1,17 @@
+
+
+.invoice-container {
+  color: white;
+  padding: 0 2rem;
+  border-radius: 0.3rem;
+  background-color: rgb(50, 55, 75);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12pt;
+}
+
+.invoice-container p {
+  margin: 1rem;
+}

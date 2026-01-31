@@ -1,0 +1,55 @@
+
+.buttons-container {
+  margin: 1rem 2rem 0 2rem;
+  padding: 0;
+}
+
+.buttons-container button {
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  background-color: rgb(156, 208, 88);
+}
+
+.buttons-container button:hover {
+  background-color: rgb(128, 168, 75);
+}
+
+.buttons-container button:active {
+  background-color: rgb(105, 138, 62);
+}
+
+.clients-container {
+  height: fit-content;
+  border-radius: 0.3rem;
+  margin: 0.25rem 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.add-button {
+  color: white;
+  padding: 1rem 0px;
+  text-align: center;
+  border-radius: 0.3rem;
+  background-color: #1b8f48;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 600;
+  width: 75%;
+  font-size: 12pt;
+  margin: 0.25rem 2rem;
+  border: none;
+  align-self: center;
+}
+
+.add-button:hover {
+  background-color: #1f723f;
+}
+
+.add-button:active {
+  background-color: #1b5431;
+}

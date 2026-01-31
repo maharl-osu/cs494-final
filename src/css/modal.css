@@ -1,0 +1,33 @@
+
+
+.modal-container {
+  position: fixed;
+  inset: 0;
+  background-color: #000000AA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-modal-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 25%;
+  max-width: 400px;
+}
+
+.inner-modal-container h1 {
+  font-size: 14pt;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 0;
+  padding: 0;
+}
+
+.split-container {
+  display: grid;
+  gap: 0.25rem;
+}
